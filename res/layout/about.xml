@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_height="fill_parent" android:layout_width="fill_parent"
+	android:orientation="vertical">
+	<ScrollView android:layout_height="wrap_content"
+		android:layout_width="fill_parent">
+		<LinearLayout android:layout_height="wrap_content"
+			android:layout_width="fill_parent" android:orientation="vertical"
+			android:padding="10dip" android:paddingRight="20dip">
+			<LinearLayout android:layout_width="wrap_content"
+				android:layout_height="wrap_content">
+				<ImageView android:layout_height="wrap_content"
+					android:scaleType="fitCenter" android:layout_width="wrap_content"
+					android:src="@drawable/icon" android:layout_marginLeft="10dip" android:layout_marginRight="10dip"></ImageView>
+				<TextView android:id="@+id/AboutText"
+					android:layout_height="wrap_content" android:layout_width="fill_parent"
+					android:textAppearance="?android:attr/textAppearanceSmall"
+					android:layout_marginTop="10dip"></TextView>
+			</LinearLayout>
+			<LinearLayout android:layout_width="fill_parent"
+				android:layout_height="wrap_content">
+				<TextView android:id="@+id/DescriptionText"
+				    android:text="@string/msg_about_description"
+					android:layout_height="wrap_content" android:layout_width="fill_parent"
+					android:textAppearance="?android:attr/textAppearanceMedium"
+					android:layout_marginTop="10dip"></TextView>
+		    </LinearLayout>
+			<include layout="@layout/divider" />
+			<LinearLayout android:layout_height="wrap_content" android:layout_marginTop="10dip"
+				android:gravity="right" android:layout_width="fill_parent">
+				<Button android:layout_width="wrap_content"
+					android:layout_height="wrap_content" android:id="@+id/FeedbackButton"
+					android:text="@string/msg_about_feedback"></Button>
+				<Button android:layout_width="wrap_content"
+					android:layout_height="wrap_content" android:id="@+id/PrivacyButton"
+					android:text="@string/msg_about_privacy"></Button>
+				<Button android:layout_width="wrap_content"
+					android:layout_height="wrap_content" android:id="@+id/TermsButton"
+					android:text="@string/msg_about_terms"></Button>
+			</LinearLayout>
+		</LinearLayout>
+	</ScrollView>
+</LinearLayout>

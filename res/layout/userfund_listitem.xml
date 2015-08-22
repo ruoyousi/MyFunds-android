@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical" android:layout_width="fill_parent"
+	android:layout_height="fill_parent" android:padding="5dp">
+
+	<LinearLayout android:orientation="horizontal"
+		android:layout_width="fill_parent" android:layout_height="wrap_content"
+		android:visibility="visible" android:gravity="center_vertical">
+		<LinearLayout android:orientation="vertical"
+			android:layout_weight="2" android:layout_width="wrap_content"
+			android:layout_height="wrap_content">
+			<TextView android:layout_height="wrap_content" android:id="@+id/txtProductId"
+				android:textAppearance="?android:attr/textAppearanceMedium"
+				android:text="123456" android:gravity="center" android:layout_width="fill_parent"
+				android:textColor="@color/orange" />
+			<TextView android:layout_height="wrap_content" android:id="@+id/txtProductName"
+				android:text="Fund Name" android:layout_weight="1"
+				android:layout_width="fill_parent" android:textAppearance="?android:attr/textAppearanceLarge"
+				android:gravity="center" android:textColor="@color/orange" />
+		</LinearLayout>
+		<TextView android:layout_height="fill_parent" android:id="@+id/txtGrowth"
+			android:text="0.56%" android:layout_width="wrap_content"
+			android:layout_weight="1" android:textAppearance="?android:attr/textAppearanceLarge"
+			android:gravity="center_vertical|center_horizontal" />
+	</LinearLayout>
+
+	<LinearLayout android:orientation="horizontal"
+		android:layout_width="fill_parent" android:layout_height="wrap_content"
+		android:gravity="center_vertical">
+		<TextView android:layout_width="wrap_content"
+			android:layout_height="wrap_content" android:id="@+id/txtLastDate"
+			android:textAppearance="?android:attr/textAppearanceMedium"
+			android:text="2010-12-31" android:layout_weight="1"
+			android:textColor="@android:color/secondary_text_dark" />
+		<TextView android:layout_width="wrap_content"
+			android:layout_height="wrap_content" android:id="@+id/txtLastValue"
+			android:text="12.552" android:gravity="right" android:layout_weight="1"
+			android:textAppearance="?android:attr/textAppearanceLarge" />
+	</LinearLayout>
+
+	<LinearLayout android:orientation="horizontal"
+		android:layout_width="fill_parent" android:layout_height="wrap_content"
+		android:gravity="center_vertical">
+		<TextView android:id="@+id/txtTheDate"
+			android:textAppearance="?android:attr/textAppearanceMedium"
+			android:text="2010-12-30" android:layout_width="wrap_content"
+			android:layout_height="wrap_content" android:layout_weight="1"
+			android:textColor="@android:color/secondary_text_dark" />
+		<TextView android:layout_height="wrap_content" android:id="@+id/txtValue"
+			android:text="12.567" android:gravity="right" android:layout_weight="1"
+			android:layout_width="wrap_content" android:textAppearance="?android:attr/textAppearanceLarge" />
+	</LinearLayout>
+
+	<LinearLayout android:orientation="horizontal"
+		android:layout_width="fill_parent" android:layout_height="wrap_content"
+		android:gravity="center_vertical">
+		<TextView android:textAppearance="?android:attr/textAppearanceMedium"
+			android:layout_weight="1" android:layout_width="wrap_content"
+			android:layout_height="wrap_content" android:textColor="@android:color/secondary_text_dark"
+			android:text="@string/growth_label" />
+		<TextView android:id="@+id/txtEarningRate" android:text="0.516%"
+	android:layout_width="wrap_content" android:layout_height="wrap_content"
+	android:gravity="right" android:layout_weight="1"
+	android:textAppearance="?android:attr/textAppearanceLarge" />
+	</LinearLayout>
+
+	<LinearLayout android:orientation="horizontal"
+		android:layout_width="fill_parent" android:layout_height="wrap_content"
+		android:gravity="center_vertical">
+		<TextView android:textAppearance="?android:attr/textAppearanceMedium"
+			android:layout_weight="1" android:text="@string/quantity_label"
+			android:layout_width="wrap_content" android:layout_height="wrap_content"
+			android:textColor="@android:color/secondary_text_dark" />
+		<TextView android:layout_height="wrap_content" android:id="@+id/txtQuantity"
+			android:text="123000.00" android:padding="3dip" android:gravity="right"
+			android:layout_weight="1" android:layout_width="wrap_content"
+			android:textAppearance="?android:attr/textAppearanceLarge" />
+	</LinearLayout>
+
+	<LinearLayout android:orientation="horizontal"
+		android:layout_width="fill_parent" android:layout_height="wrap_content"
+		android:gravity="center_vertical">
+		<TextView android:textAppearance="?android:attr/textAppearanceMedium"
+			android:layout_weight="1" android:text="@string/total_label"
+			android:layout_width="wrap_content" android:layout_height="wrap_content"
+			android:textColor="@android:color/secondary_text_dark" />
+		<TextView android:layout_height="wrap_content" android:id="@+id/txtTotal"
+			android:text="1545741.00" android:gravity="right"
+			android:layout_weight="1" android:layout_width="wrap_content"
+			android:textAppearance="?android:attr/textAppearanceLarge" />
+	</LinearLayout>
+
+	<LinearLayout android:orientation="horizontal"
+		android:layout_width="fill_parent" android:layout_height="wrap_content"
+		android:gravity="center_vertical">
+		<TextView android:textAppearance="?android:attr/textAppearanceMedium"
+			android:layout_weight="1" android:text="@string/principal_label"
+			android:layout_width="wrap_content" android:layout_height="wrap_content"
+			android:textColor="@android:color/secondary_text_dark" />
+		<TextView android:layout_height="wrap_content" android:id="@+id/txtPrincipal"
+			android:text="1500000.00" android:gravity="right"
+			android:layout_weight="1" android:layout_width="wrap_content"
+			android:textAppearance="?android:attr/textAppearanceLarge" />
+	</LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+	<item android:id="@+id/menuitem_refresh" android:title="@string/refresh"
+		android:icon="@drawable/refresh" />
+	<item android:id="@+id/menuitem_add" android:title="@string/add"
+		android:icon="@drawable/add" />
+	<item android:id="@+id/menuitem_export" android:title="@string/exp_data"
+		android:icon="@drawable/exp" />
+	<item android:id="@+id/menuitem_import" android:title="@string/imp_data"
+		android:icon="@drawable/imp" />
+	<item android:id="@+id/menuitem_about" android:title="@string/about_title"
+		android:icon="@drawable/about" />
+</menu>

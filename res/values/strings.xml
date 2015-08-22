@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="app_name">MyFunds</string>
+	<string name="app_description">Focus on open-ended fund portfolio changes</string>
+
+	<string name="settings_title">Setting</string>
+	<string name="about_title">About</string>
+
+	<string name="userFund_title">Principal:%1$s, Total:%2$s, Earning Rate:%3$s</string>
+	<string name="selectCompany_title">Select Company</string>
+	<string name="selectProduct_title">Select Product</string>
+	<string name="editFund_title">Edit Fund Principal and Quantity</string>
+	<string name="editQuantity_title">Edit Quantity</string>
+	<string name="editPrincipal_title">Edit Principal Amount</string>
+	<string name="userFundChart_title">Funds Chart</string>
+	<string name="userFavorite_title">My Favorite(%1$s)</string>
+	<string name="fundHistoryValue_title">History Values</string>
+	<string name="fundComparison_title">Fund Comparison</string>
+	<string name="fundFilter_title">Fund Filter</string>
+	<string name="fundSort_title">Fund Sort</string>
+	<string name="fundCalculator_title">Fund Calculator</string>
+	<string name="fundFilterCondition_title">Filter Condition</string>
+	<string name="fundFilterResult_title">Filter Result</string>
+	<string name="selectFundType_title">Select Fund Type</string>
+	
+	<string name="theDate_label">Date</string>
+	<string name="lastDate_label">Last Date</string>
+	<string name="accumulation_label">Accumulation</string>
+	<string name="netValue_label">Net Value</string>
+	<string name="growth_label">Growth</string>
+	<string name="earningRate_label">Earning Rate</string>
+	<string name="quantity_label">Quantity</string>
+	<string name="total_label">Total</string>
+	<string name="principal_label">Principal</string>
+	<string name="fee_label">Fee</string>
+	<string name="money_label">Cash Income</string>
+	<string name="earning_label">Earning</string>
+	<string name="regularPlanEnabled_label">Monthly Regular Plan</string>
+	<string name="subscribeDate_label">Subscribe Date</string>
+	<string name="subscribeFeeRate_label">Subscribe Fee Rate</string>
+	<string name="redeemDate_label">Redeem Date</string>
+	<string name="redeemFeeRate_label">Redeem Fee Rate</string>
+	<string name="divideType_label">Divide Type</string>
+	<string name="feeType_label">Fee Type</string>
+	
+	<string name="CashDivideType_label">Cash</string>
+	<string name="ReinvestmentDivideType_label">Re-investment</string>
+	<string name="FrontEndFeeType_label">Front-end</string>
+	<string name="BackEndFeeType_label">Back-end</string>
+
+	<string name="connectServerFailed">Connect Server failed, please check connection setting</string>
+	<string name="noFundData">No Fund shares, please add</string>
+	<string name="existsFundData">Fund Data already exists</string>
+	<string name="selectFundTypeToSort">Please select Fund type to query data</string>
+	<string name="editFilterConditionToFilter">Please edit Filter condition to query data</string>
+	<string name="noFundEarningData">No Fund Earning Data</string>
+	
+	<string name="askBeforeExit">Are you sure to exit?</string>
+	<string name="askBeforeRemove">Are you sure remove the fund record?</string>
+
+	<string name="ok">OK</string>
+	<string name="cancel">Cancel</string>
+	<string name="refresh">Refresh</string>
+	<string name="add">Add</string>
+	<string name="edit">Edit</string>
+	<string name="remove">Remove</string>
+	<string name="filter">Filter</string>
+	<string name="chart">Chart</string>
+	<string name="calculate">Calculate</string>
+	<string name="exp_data">Export Data</string>
+	<string name="imp_data">Import Data</string>
+	<string name="no_data_tips">NO Data, please add record.</string>
+
+	<string name="loading">Please wait ...</string>
+	<string name="yuan"></string>
+	<string name="all">All</string>
+	
+	<string name="fundstatus_normal">Normal</string>
+	<string name="fundstatus_onlyRedeem">Only Redeem</string>
+	<string name="fundstatus_closing">Closing</string>
+	<string name="fundstatus_onlyTransaction">Only Transaction</string>
+	<string name="fundstatus_notLargeAmount">Not Large Amount</string>
+
+	<string name="fundtype_stock">Stock</string>
+	<string name="fundtype_hyper">Hyper</string>
+	<string name="fundtype_bond">Bond</string>
+	<string name="fundtype_currency">Currency</string>
+	<string name="fundtype_breakeven">Breakeven</string>
+	<string name="fundtype_lof">Lof</string>
+	<string name="fundtype_index">Index</string>
+	<string name="fundtype_etf">ETF</string>
+	<string name="fundtype_qdii">QDII</string>
+	<string name="fundtype">Fund Type</string>
+
+	<string name="daterange_last_week">Last 1 Week</string>
+	<string name="daterange_last_month">Last 1 Month</string>
+	<string name="daterange_last_3month">Last 3 Months</string>
+	<string name="daterange_last_halfyear">Last 6 Months</string>
+	<string name="daterange_last_year">Last 1 Year</string>
+	<string name="daterange_last_2year">Last 2 Years</string>
+	<string name="daterange_last_3year">Last 3 Years</string>
+	<string name="daterange_this_year">This Year</string>
+	<string name="daterange_from_create">From create</string>
+
+	<string name="ImportData_success">Import data successful.</string>
+	<string name="ImportData_fail">Import data failed!\nPlease check default import file path.</string>
+	<string name="ExportData_success">Export data successful, default export file path SD card:\n%1$s</string>
+	<string name="ExportData_fail">Export data failed!</string>
+
+	<string name="msg_about_developer">Developed by</string>
+	<string name="msg_about_developer_value">ruoyousi</string>
+	<string name="msg_about_contact">Contact</string>
+	<string name="msg_about_contact_value">ruoyousi@gmail.com</string>
+	<string name="msg_about_version_name">Version name</string>
+	<string name="msg_about_version_code">Version code</string>
+	<string name="msg_about_feedback">Send Feedback</string>
+	<string name="msg_about_privacy">Privacy</string>
+	<string name="msg_about_terms">Terms</string>
+	<string name="msg_about_feedback_url">http://ruoyousi.sinaapp.com</string>
+	<string name="msg_about_description">To manage the list of your open-ended fund shares, and refresh their net values, and compute their earnings.</string>
+
+	<string name="msg_eula_accept">Accept</string>
+	<string name="msg_eula_refuse">Refuse</string>
+	<string name="msg_eula_title">End User License Agreement</string>
+
+</resources>

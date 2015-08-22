@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+	<string-array name="fundtypes">
+	    <item>全部</item>
+		<item>股票型</item>
+		<item>混合型</item>
+		<item>债券型</item>
+		<item>保本型</item>
+		<item>LOF</item>
+		<item>指数型</item>
+		<item>ETF</item>
+		<item>QDII</item>
+	</string-array>
+	
+</resources>

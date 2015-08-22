@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<color name="white">#ffff</color>
+    <color name="light_grey">#feee</color>
+    <color name="dark_grey">#f888</color>
+    <color name="black">#f000</color>
+    <color name="orange">#FF7F00</color>
+	<color name="disabled">#ffb3b3b3</color>
+
+    <color name="solid_red">#f00</color>
+    <color name="solid_blue">#0000ff</color>
+    <color name="solid_green">#f0f0</color>
+    <color name="solid_yellow">#ffff00</color>
+</resources>

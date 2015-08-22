@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="app_name">我的基金</string>
+	<string name="app_description">关注开放式基金收益变化</string>
+
+	<string name="settings_title">配置</string>
+	<string name="about_title">关于</string>
+
+	<string name="userFund_title">本金:%1$s, 现值:%2$s, 收益率:%3$s</string>
+	<string name="selectCompany_title">选择基金公司</string>
+	<string name="selectProduct_title">选择基金产品</string>
+	<string name="editFund_title">修改基金本金金额和份额</string>
+	<string name="editQuantity_title">修改基金份额</string>
+	<string name="editPrincipal_title">修改本金金额</string>
+	<string name="userFundChart_title">基金构成图</string>
+	<string name="userFavorite_title">关注基金(%1$s)</string>
+	<string name="fundHistoryValue_title">历史净值</string>
+	<string name="fundComparison_title">基金比较</string>
+	<string name="fundFilter_title">基金筛选</string>
+	<string name="fundSort_title">基金排行</string>
+	<string name="fundCalculator_title">基金试算器</string>
+	<string name="fundFilterCondition_title">筛选条件</string>
+	<string name="fundFilterResult_title">筛选结果</string>
+	<string name="selectFundType_title">选择基金类型</string>
+	
+	<string name="theDate_label">日期</string>
+	<string name="lastDate_label">上一日</string>
+	<string name="accumulation_label">累计净值</string>
+	<string name="netValue_label">净值</string>
+	<string name="growth_label">日增长率</string>
+	<string name="earningRate_label">收益率</string>
+	<string name="quantity_label">份额</string>
+	<string name="total_label">现值</string>
+	<string name="principal_label">本金</string>
+	<string name="fee_label">费用</string>
+	<string name="money_label">现金分红</string>
+	<string name="earning_label">收益率</string>
+	<string name="regularPlanEnabled_label">每月定投</string>
+	<string name="subscribeDate_label">申购日期</string>
+	<string name="subscribeFeeRate_label">申购费率</string>
+	<string name="redeemDate_label">赎回日期</string>
+	<string name="redeemFeeRate_label">赎回费率</string>
+	<string name="divideType_label">分红方式</string>
+	<string name="feeType_label">收费方式</string>
+
+	<string name="CashDivideType_label">现金</string>
+	<string name="ReinvestmentDivideType_label">红利再投</string>
+	<string name="FrontEndFeeType_label">前端</string>
+	<string name="BackEndFeeType_label">后端</string>
+	
+	<string name="connectServerFailed">连接服务器失败, 请检查网络配置</string>
+	<string name="noFundData">请添加基金份额</string>
+	<string name="existsFundData">您不能重复选择基金</string>
+	<string name="selectFundTypeToSort">请您选择基金类型</string>
+	<string name="editFilterConditionToFilter">请您设置筛选条件</string>
+	<string name="noFundEarningData">没有查询到收益率数据</string>
+	
+	<string name="askBeforeExit">你要退出 我的基金 吗?</string>
+	<string name="askBeforeRemove">你确认删除这条基金记录吗?</string>
+
+	<string name="ok">确定</string>
+	<string name="cancel">取消</string>
+	<string name="refresh">刷新</string>
+	<string name="add">添加</string>
+	<string name="edit">编辑</string>
+	<string name="remove">删除</string>
+	<string name="filter">筛选</string>
+	<string name="chart">图表</string>
+	<string name="calculate">计算</string>
+	<string name="exp_data">导出数据</string>
+	<string name="imp_data">导入数据</string>
+	<string name="no_data_tips">没有数据, 请添加记录.</string>
+	
+	<string name="loading">请稍候...</string>
+	<string name="yuan">元</string>
+	<string name="all">全部</string>
+	
+	<string name="fundstatus_normal">开放申赎</string>
+	<string name="fundstatus_onlyRedeem">仅开放赎回</string>
+	<string name="fundstatus_closing">封闭期内</string>
+	<string name="fundstatus_onlyTransaction">仅场内交易</string>
+	<string name="fundstatus_notLargeAmount">暂停大额申购</string>
+
+	<string name="fundtype_stock">股票型</string>
+	<string name="fundtype_hyper">混合型</string>
+	<string name="fundtype_bond">债券型</string>
+	<string name="fundtype_currency">货币型</string>
+	<string name="fundtype_breakeven">保本型</string>
+	<string name="fundtype_lof">LOF</string>
+	<string name="fundtype_index">指数型</string>
+	<string name="fundtype_etf">ETF</string>
+	<string name="fundtype_qdii">QDII</string>
+	<string name="fundtype">基金类型</string>
+
+	<string name="daterange_last_week">过去1周</string>
+	<string name="daterange_last_month">过去1月</string>
+	<string name="daterange_last_3month">过去3月</string>
+	<string name="daterange_last_halfyear">过去6月</string>
+	<string name="daterange_last_year">过去1年</string>
+	<string name="daterange_last_2year">过去2年</string>
+	<string name="daterange_last_3year">过去3年</string>
+	<string name="daterange_this_year">今年以来</string>
+	<string name="daterange_from_create">成立以来</string>
+
+    <string name="ImportData_success">成功导入数据。</string>
+	<string name="ImportData_fail">导入数据失败了!\n请检查默认导入位置文件。</string>
+	<string name="ExportData_success">成功导出数据，默认导出数据文件位置SD卡:\n%1$s</string>
+	<string name="ExportData_fail">导出数据失败了！</string>
+
+	<string name="msg_about_developer">开发者</string>
+	<string name="msg_about_developer_value">ruoyousi</string>
+	<string name="msg_about_contact">联系</string>
+	<string name="msg_about_contact_value">ruoyousi@gmail.com</string>
+	<string name="msg_about_version_name">版本</string>
+	<string name="msg_about_version_code">版本号</string>
+	<string name="msg_about_feedback">反馈</string>
+	<string name="msg_about_privacy">隐私</string>
+	<string name="msg_about_terms">条款</string>
+	<string name="msg_about_feedback_url">http://ruoyousi.sinaapp.com</string>
+	<string name="msg_about_description">管理开放式基金份额列表，自动更新基金净值和计算收益。</string>
+
+	<string name="msg_eula_accept">接受</string>
+	<string name="msg_eula_refuse">拒绝</string>
+	<string name="msg_eula_title">最终用户使用授权协议</string>
+
+</resources>
